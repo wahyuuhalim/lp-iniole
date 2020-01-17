@@ -143,9 +143,9 @@ header .btn-get-started:hover {
 
 .section-our-network {
   background-color: #ffffff;
-  margin-top: 100px;
+  margin-top: 30px;
   padding-top: -275px;
-  padding-bottom: 82px;
+  padding-bottom: 42px;
 }
 
 .section-our-network img {
@@ -154,13 +154,13 @@ header .btn-get-started:hover {
 
 .section-our-network h2 {
   font-family: Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .section-our-network p {
   font-family: 'Assistant', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -168,19 +168,20 @@ header .btn-get-started:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 76, 46, 0.13)), to(rgba(110, 76, 46, 0.11)));
   background: linear-gradient(rgba(110, 76, 46, 0.13) 0%, rgba(110, 76, 46, 0.11) 100%);
   opacity: 1;
-  padding-top: 50px;
+  padding-top: 30px;
+  margin-bottom: -350px;
   min-height: 470px;
 }
 
 .section-testimonial-heading h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   color: #000000;
 }
 
 .section-testimonial-heading p {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .section-item-testimonial {
@@ -282,6 +283,27 @@ header .btn-get-started:hover {
     font-size: 40px;
   }
   .section-info-popular .section-popular-heading p {
+    font-size: 18px;
+  }
+  .section-our-network {
+    margin-top: 100px;
+    padding-top: -275px;
+    padding-bottom: 82px;
+  }
+  .section-our-network h2 {
+    font-size: 40px;
+  }
+  .section-our-network p {
+    font-size: 18px;
+  }
+  .section-testimonial-heading {
+    margin-bottom: 0px;
+    padding-top: 50px;
+  }
+  .section-testimonial-heading h2 {
+    font-size: 40px;
+  }
+  .section-testimonial-heading p {
     font-size: 18px;
   }
 }

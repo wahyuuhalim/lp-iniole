@@ -175,9 +175,9 @@ header {
 // OUR NETWORK
 .section-our-network {
   background-color: #ffffff;
-  margin-top: 100px;
+  margin-top: 30px;
   padding-top: -275px;
-  padding-bottom: 82px;
+  padding-bottom: 42px;
 
   img {
     max-width: 100%;
@@ -185,13 +185,13 @@ header {
 
   h2 {
     font-family: Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
   }
 
   p {
     font-family: 'Assistant', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: normal;
   }
 }
@@ -201,18 +201,19 @@ header {
 .section-testimonial-heading {
   background: linear-gradient(rgba(110, 76, 46, 0.13) 0%, rgba(110, 76, 46, 0.11) 100%);
   opacity: 1;
-  padding-top: 50px;
+  padding-top: 30px;
+  margin-bottom: -350px;
   min-height: 470px;
 
   h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     color: #000000;
   }
 
   p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 // TESTIMONIAL HEADING
@@ -336,6 +337,33 @@ header {
       p {
         font-size: 18px;
       }
+    }
+  }
+
+  .section-our-network {
+    margin-top: 100px;
+    padding-top: -275px;
+    padding-bottom: 82px;
+
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .section-testimonial-heading {
+    margin-bottom: 0px;
+    padding-top: 50px;
+
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
     }
   }
 }
